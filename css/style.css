@@ -42,7 +42,11 @@ a{
     padding: 5px;
     border-style: dashed;
     width: 223px;
+    display: flex;
+    justify-content: flex-end;
 }
+
+
 
 .blu{
     background-color: blue;
@@ -83,4 +87,74 @@ a{
 .grigio{
     background-color:  lightgrey;
     padding: 30px;
+}
+.striscia5{
+    background-color: green;
+    margin: 0 auto;
+    width: 700px;
+    height: 600px;
+    border-style: dashed;
+}
+
+.nero{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    
+}
+
+.st6-1{
+    width: 300px;
+    height: 600px;
+    background-color: pink;
+    border-style: dashed;
+}
+
+.st6-2{
+    display: flex;
+    width: 400px;
+    background-color: blue;
+}
+
+.st-q{
+    width: 100px;
+    background-color: lightblue;
+    height: 600px;
+    border-style: dashed;
+    border-color: white;
+}
+.box{
+    margin: 0 auto;
+    display: flex;
+}
+
+hr{
+    color: lightslategray;
+}
+
+footer{
+    background-color: black;
+    padding-top: 20px;
+}
+
+.fp{
+    margin: 0 auto;
+    display: flex;
+    background-color: lightskyblue;
+    width: 700px;
+    justify-content: space-between;
+    height: 30px;
+    padding: 5px;
+}
+
+.fp1{
+   
+    background-color: pink;
+    border-style: dashed;
+}
+
+.fp2{
+    background-color: pink;
+    border-style: dashed;
 }
