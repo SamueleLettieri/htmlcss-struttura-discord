@@ -1,0 +1,86 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+
+.contenitore{
+    margin: 0 auto;
+    display: flex;
+    background-color: darkorange;
+    width: 700px;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+}
+
+.logo{
+    padding: 5px;
+    border-style: dashed;
+    width: 223px;
+}
+.link{
+    padding: 5px;
+    border-style: dashed;
+    width: 255px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login{
+    padding: 5px;
+    border-style: dashed;
+    width: 223px;
+}
+
+.blu{
+    background-color: blue;
+    padding: 30px;
+}
+.striscia1{
+    margin: 0 auto;
+    background-color: pink;
+    width: 600px;
+    height: 300px;
+    border-style: dashed;
+}
+
+.bianco{
+    background-color: white;
+    padding: 30px;
+}
+
+.striscia{
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.st-1{
+    width: 400px;
+    background-color: lightskyblue;
+    height: 300px;
+    border-style: dashed;
+}
+.st-2{
+    width: 300px;
+    background-color: pink;
+    height: 300px;
+    border-style: dashed;
+}
+
+.grigio{
+    background-color:  lightgrey;
+    padding: 30px;
+}
